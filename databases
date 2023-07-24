@@ -1,0 +1,18 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydatabase',
+        'USER': 'mydatabaseuser',
+        'PASSWORD': 'mypassword',
+        'HOST': '127.0.0.1',
+        'PORT': '1234',
+    }
+}
+
+
+#ENGINE - движок бд, который все на себе вывозит
+#NAME - имя бд или путь к ней
+#USER - имя пользователя. По умолчанию равно ''
+#PASSWORD - пароль. По умолчанию равно ''
+#HOST - хост базы данных
+#PORT - порт бд. По умолчанию равно ''
